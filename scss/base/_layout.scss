@@ -1,0 +1,17 @@
+$font-serif: 'Playfair Display', serif;
+$font-sans: 'Inter', sans-serif;
+$font-script: 'Dancing Script', cursive;
+
+html, body { height: 100%; }
+
+body {
+  font-family: $font-sans;
+  color: $primary-font-color;
+  background: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(100% - 2rem, 1100px);
+  margin-inline: auto;
+}

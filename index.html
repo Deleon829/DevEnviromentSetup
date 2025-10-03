@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Place — Our Story</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/main.css?v=106">
+
+<style>
+  .site-footer {
+    background: #414141;   /* or #e9e9e9 if you want a light gray */
+    color: #fff;
+    margin-top: 72px;
+    padding: 24px 0;
+  }
+  .site-footer a { color: #fff; text-decoration: none; }
+  .site-footer a:hover, .site-footer a:focus { text-decoration: underline; }
+  .footer__inner { display: flex; justify-content: space-between; gap: 24px; }
+  @media (max-width: 800px) {
+    .footer__inner { flex-direction: column; text-align: center; }
+  }
+</style>
+
+</head>
+<body>
+
+
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="brand" href="#">THE PLACE</a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a class="is-active" href="#">Welcome</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section class="section-our-story">
+  <div class="container our-story__grid">
+    <!-- Left column: text -->
+    <div class="our-story__copy">
+      <p class="kicker">Discover</p>
+      <h2 class="display">OUR STORY</h2>
+      <span class="divider" aria-hidden="true">★</span>
+      <p class="lead">
+        Lorem ipsum is placeholder text commonly used in the graphic, print,
+        and publishing industries for previewing layouts and visual mockups.
+      </p>
+      <a class="text-link" href="#">ABOUT US</a>
+    </div>
+
+    <!-- Right column: image -->
+<figure class="our-story__media">
+  <img src="images/our-story.jpg" alt="Restaurant interior">
+</figure>
+ </div>
+</section>
+   
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <p>Copyright © Designed with love by me</p>
+    <p>Permissions and Copyright | Contact the Team</p>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

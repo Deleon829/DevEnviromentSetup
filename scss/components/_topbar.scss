@@ -1,0 +1,40 @@
+.topbar {
+  background-color: $darker-background;
+  color: #fff;
+  padding: 14px 0;
+
+  .topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: .04em;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .main-nav {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 28px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+
+      &:hover,
+      &.is-active { color: $secondary-font-color; }
+    }
+  }
+}

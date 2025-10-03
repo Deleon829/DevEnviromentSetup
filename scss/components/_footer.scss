@@ -1,0 +1,34 @@
+.site-footer {
+  /* pick the background you want */
+  background: $dark-background;     // #414141 from your variables
+  color: #555555;
+
+  /* space above & inside the bar */
+  margin-top: 72px;
+  padding-block: 24px;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Stack nicely on small screens */
+@media (max-width: 800px) {
+  .footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
